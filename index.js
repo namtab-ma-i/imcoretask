@@ -46,8 +46,8 @@ let Application = {
         ], (err) => {
             if(err)
                 console.log(err);
-
-            console.log('Started');
+            else
+                console.log('Started');
         });
 
     }
