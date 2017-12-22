@@ -1,0 +1,22 @@
+{
+
+  "application": {
+    "port": 3000
+  },
+
+  "api": {
+    "host": "api.csgo.steamlytics.xyz",
+    "path": "/v2/pricelist?key=1986ff3c63dcdfbd0edc4aad7e7f5e4e"
+  },
+
+  "mysql": {
+    "connectionLimit": 100,
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "root",
+    "database": "test_imc",
+    "table": "prices"
+  }
+
+}
